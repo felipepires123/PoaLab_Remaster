@@ -1,5 +1,10 @@
 /* ---- particles.js config ---- */
 
+
+function mudaFoto (foto){
+  document.getElementById("icone"). src = foto;
+}
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
