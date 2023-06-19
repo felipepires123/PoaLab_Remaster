@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br" >
+<!-- partial:index.partial.html -->
 <head>
   <meta charset="UTF-8">
   <title>Poa-Lab</title>
   <link data-rh="true" rel="shortcut icon" href="images/favicon.png" >
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap-grid.css'><link rel="stylesheet" href="./style.css">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
@@ -18,11 +15,28 @@
   
   <title>Poa-Lab</title>
 </head>
+  
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+  <header>
+    <div style="" class="fixed-top dropdown">
+      <img style="height: 50px; width:50px;" src="images/menu-icon.svg" alt="" srcset="">
+      <div class="dropdown-child">
+        <a class="nav-link" href="index.html"> Home</a>
+        <a class="nav-link" href="#aboutme">Sobre</a>
+        <a class="nav-link" href="#imagesportifolio">Equipamentos</a>
+        <a class="nav-link" href="#technology">Tecnologias</a>
+        <a class="nav-link" href="#contact">Contato</a>
+      </div>
+    </div>  
+  </header>
+  
+  <!--
   <div>
     <nav class="navbar navbar-expand-sm fixed-top">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link" href="#" >Poa-Lab</a></li>
+        <li  class="nav-item"><a class="nav-link" href="#" ><img src="images/favicon.png" alt="" srcset=""></a></li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#aboutme">Sobre</a></li>
@@ -32,6 +46,8 @@
       </ul>    
     </nav>
   </div>
+-->
+
 
   <div id="particles-js"></div>
 
@@ -43,11 +59,11 @@
   <div class="container-aboutme background-color" id="aboutme">
     <h1 class="container-flex box-technology-title">POA LAB</h1>      
     <div class="box-aboutme-text container-flex">
-      <p style="text-align: left;" class="profile-text">A missão do POA-LAB popularizar o acesso e letramento na fabricação digital, funcionando como uma plataforma de criatividade, aprendizagem e invenção. <br><br> Ser um Fab Lab significa estar conectado a uma comunidade mundial de alunos, educadores, técnicos, pesquisadores e inovadores e desenvolver atividades dentro da filosofia do conhecimento aberto.</p>
+      <p style="text-align: left;" class="profile-text container-flex">A missão do POA-LAB popularizar o acesso e letramento na fabricação digital, funcionando como uma plataforma de criatividade, aprendizagem e invenção. <br><br> Ser um Fab Lab significa estar conectado a uma comunidade mundial de alunos, educadores, técnicos, pesquisadores e inovadores e desenvolver atividades dentro da filosofia do conhecimento aberto.</p>
     </div>   
     <div class="box-aboutme-picture container-flex">
       <div class="img-responsive">
-        <img class="profile-picture" src="images/slider/3.png"  alt="profile vinicius rocha">
+        <img style="height: 70%; width: 100%;" class="profile-picture" src="images/slider/3.png"  alt="profile vinicius rocha">
       </div>
     </div>   
   </div>   
@@ -58,7 +74,7 @@
     </div>
     <ul id="album-fotos">
       <li id="foto01"><span>Open Lab</span></li>
-      <li id="foto02"><span>Maquinas de produção</span></li>
+      <li id="foto02"><span>Maquinario de ponta</span></li>
       <li id="foto03"><span>Bancada de Eletrônica</span></li>
       <li id="foto04"><span>Impressoras 3D Wanhao</span></li>
       <li id="foto05"><span>Impressora 3D printrbot</span></li>
@@ -68,86 +84,51 @@
   
   <div class="display: grid;" id="technology">
     <div class="container-flex box-technology-title">
-      <h1>Tecnologias</h1>      
+      <h1>Links úteis</h1>      
     </div> 
     <div class="equipamentos">
-      <a href="https://cta-ifrs.github.io/Text2Braille3d/" target="_blank"> 
-      <div class="logo">
-        Impressão 3D de<br>Placas Braille<br>
-        
-                <img title="Braille" alt="Braille" width="100" src="images/recursos/braille.png">
-            </a>
-      </div>
-      <div class="logo">
-          <a href="https://www.thingiverse.com/" target="_blank"> 
-            <img title="Thingiverse" alt="Thingiverse" width="110" src="images/recursos/thingiverse.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="https://www.instructables.com/" target="_blank"> 
-            <img title="instructables" alt="instructables" width="60" src="images/recursos/InstructablesRobot.png">
-          </a>
-          <br>Instructables
-      </div>
-      <div class="logo">
-          <a href="https://www.opendesk.cc/" target="_blank"> 
-            <img title="Opendesk" alt="Opendesk" width="150" src="images/recursos/opendesk.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="http://fabacademy.org/" target="_blank"> 
-            <img title="Fab Academy" alt="Fab Academy" width="150" src="images/recursos/fabacademy.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="http://www.fabfoundation.org/" target="_blank"> 
-            <img title="Fab Foundation" alt="Fab Foundation" width="170" src="images/recursos/fabfoundation.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="https://fab.city/" target="_blank"> 
-            <img title="Fab City" alt="Fab City" width="90" src="images/recursos/fabcity.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="https://makezine.com/" target="_blank"> 
-            <img title="makezine" alt="makezine" width="80" src="images/recursos/make.png">
-          </a>
-          magazine
-      </div>
-      <div class="logo">
-          <a href="https://www.tinkercad.com/" target="_blank"> 
-            <img title="tinkercad" alt="tinkercad" width="60" src="images/recursos/tinkercad.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="https://inkscape.org/pt-br/" target="_blank"> 
-            <img title="inkscape" alt="inkscape" width="60" src="images/recursos/inkscape.png">
-          </a>
-      </div>
-      <div class="logo">
-          <a href="http://www.makercase.com/" target="_blank"> 
-            <img title="makercase" alt="makercase" width="60" src="images/recursos/makercase.png">
-          </a>
-          <br>MakerCase
-      </div>
-      <div class="logo">
-                <a href="http://aprendizagemcriativa.org/" target="_blank"> 
-                    <img title="RBAC" alt="rede brasileira de aprendizagem criativa" width="150" src="images/recursos/rbac.png">
-                </a>
-        </div>
-      <div class="logo">
-          <a href="https://portoalegre.makerfaire.com/" target="_blank"> 
-            <img title="maker faire porto alegre" alt="maker faire porto alegre" width="120" src="images/recursos/makepoa.png">
-          </a>
-      </div>
-      <div class="logo">
-        Projeto <br>Nativos Fabbers<br>
-        <a href="fabbernatives/" target="_blank"> 
-                <img title="Braille" alt="Braille" width="80" src="images/recursos/logo.svg">
-            </a>
-      </div>
-      
+      <a class="logo" href="https://cta-ifrs.github.io/Text2Braille3d/" target="_blank"> 
+        <img class="foto-link" title="Braille" alt="Braille" width="100" src="images/recursos/braille.png">
+      </a>
+      <a class="logo" href="https://www.thingiverse.com/" target="_blank"> 
+        <img title="Thingiverse" alt="Thingiverse" width="110" src="images/recursos/thingiverse.png">
+      </a>
+      <a class="logo" href="https://www.instructables.com/" target="_blank"> 
+        <img title="instructables" alt="instructables" width="60" src="images/recursos/InstructablesRobot.png">
+      </a>
+      <a class="logo" href="https://www.opendesk.cc/" target="_blank"> 
+        <img title="Opendesk" alt="Opendesk" width="150" src="images/recursos/opendesk.png">
+      </a>
+      <a class="logo" href="http://fabacademy.org/" target="_blank"> 
+        <img title="Fab Academy" alt="Fab Academy" width="150" src="images/recursos/fabacademy.png">
+      </a>
+      <a class="logo" href="http://www.fabfoundation.org/" target="_blank"> 
+        <img title="Fab Foundation" alt="Fab Foundation" width="170" src="images/recursos/fabfoundation.png">
+      </a>
+      <a class="logo" href="https://fab.city/" target="_blank"> 
+        <img title="Fab City" alt="Fab City" width="90" src="images/recursos/fabcity.png">
+      </a>
+      <a class="logo" href="https://makezine.com/" target="_blank"> 
+        <img title="makezine" alt="makezine" width="80" src="images/recursos/make.png">
+      </a>
+      <a class="logo" href="https://www.tinkercad.com/" target="_blank"> 
+        <img title="tinkercad" alt="tinkercad" width="60" src="images/recursos/tinkercad.png">
+      </a>
+      <a class="logo" href="https://inkscape.org/pt-br/" target="_blank"> 
+        <img title="inkscape" alt="inkscape" width="60" src="images/recursos/inkscape.png">
+      </a>
+      <a class="logo" href="http://www.makercase.com/" target="_blank"> 
+        <img title="makercase" alt="makercase" width="60" src="images/recursos/makercase.png">
+      </a>
+      <a class="logo" href="http://aprendizagemcriativa.org/" target="_blank"> 
+        <img title="RBAC" alt="rede brasileira de aprendizagem criativa" width="150" src="images/recursos/rbac.png">
+      </a>
+      <a class="logo" href="https://portoalegre.makerfaire.com/" target="_blank"> 
+        <img title="maker faire porto alegre" alt="maker faire porto alegre" width="120" src="images/recursos/makepoa.png">
+      </a>
+      <a class="logo" href="fabbernatives/" target="_blank"> 
+        <img title="Braille" alt="Braille" width="80" src="images/recursos/logo.svg">
+      </a>    
     </div>
   </div>  
 
