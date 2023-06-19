@@ -10,21 +10,40 @@ body {
   height: 100%;
 }
 
-.navbar{
-  background-color: #085528a9;
-  font-size: large;
-  box-shadow: 0px 0px 10px black;
-  height: 9%;
+.mainmenubtn {
+  background: url(images/menu-icon.svg);
   color: white;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+}
+.mainmenubtn:hover {
+  background-color: #085528;
+  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  box-shadow: 0px 0px 10px black; 
+  background-color: #085528bd;
+}
+.dropdown-child {
+  display: none;
+  min-width: 200px;
+}
+.dropdown-child a {
+  color: #085528;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
 }
 
-.nav-item:hover{ 
-  background-color: #0d803d;
-  border-radius: 8px;
+.nav-link{
+  border-top: solid rgba(0, 0, 0, 0.185) 1px;
 }
-.nav-item:active{ 
-  box-shadow: 0px 0px 10px black;
-}
+
 
 canvas {
   display: block;
@@ -108,7 +127,7 @@ canvas {
 .box-aboutme-title {
   grid-area: 1 / 1 / 1 / 3;
   background-color: #085528;
-  box-shadow: 0px 8px 5px rgba(0,0,0,0.5);
+  margin: auto;
 }
 
 .box-aboutme-picture {
@@ -118,6 +137,7 @@ canvas {
 
 .box-aboutme-text {
   color: rgb(255, 255, 255); 
+  height: max-content;
 }
 
 .profile-picture {
@@ -132,6 +152,8 @@ canvas {
   text-align: left;
   font-size: 16pt;
   padding-left: 40px;
+  max-height: max-content;
+  margin: auto;
 }
 
 /** Container Portifolio **/
@@ -139,15 +161,16 @@ ul#album-fotos{
   width: 100%;
   overflow: hidden;
   list-style: none;
-  margin: 2% auto 9%;
-  padding-left: 3%;
+  margin: 3% auto ;
+  padding: 4% 25%;
+  align-self: center;
 }
 ul#album-fotos li{
   float: left;
   width: 200px;
   height: 200px;
-  margin: 1% 2%;
-  border: solid 5px #085528;
+  margin: 5px;
+  border: solid 2px #085528;
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 0px 0px 7px rgb(0, 0, 0);
@@ -301,7 +324,6 @@ a.container-portifolio:link, a:visited, a:active {
 .box-technology-title {
   grid-area: 1 / 1 / 2 / 3;
   background-color: #085528;
-  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .equipamentos{
@@ -314,13 +336,17 @@ a.container-portifolio:link, a:visited, a:active {
 
 .logo{
   float: left;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   margin: 1%;
   text-align: center;
   color: black;
+  border: solid black 1px;
 }
 
+.foto-link{
+  bottom: 50%;
+}
 
 /** Container Contact **/
 
