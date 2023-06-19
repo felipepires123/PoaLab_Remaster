@@ -19,12 +19,14 @@ body {
 }
 .dropdown {
   position: relative;
+  color: white;
   display: inline-block;
   box-shadow: 0px 0px 10px black; 
   background-color: #085528bd;
 }
 .dropdown-child {
   display: none;
+  color: white;
   min-width: 200px;
 }
 .dropdown-child a {
@@ -32,9 +34,11 @@ body {
   padding: 20px;
   text-decoration: none;
   display: block;
+  color: white;
 }
 .dropdown:hover .dropdown-child {
   display: block;
+  color: white;
 }
 
 .nav-link{
@@ -106,8 +110,6 @@ canvas {
   background-attachment: fixed;
   overflow: hidden;
 }
-
-/** Container aboutme **/
 
 .container-aboutme {
   display: grid;
@@ -305,8 +307,6 @@ a.container-portifolio:link, a:visited, a:active {
   }
 }
 
-/** Container Technology **/
-
 .container-technology {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -344,9 +344,9 @@ a.container-portifolio:link, a:visited, a:active {
 .foto-link{
   bottom: 50%;
 }
+li{
+  text-align: center;
+  font:normal 75% Arial, Helvetica, sans-serif;
 
-/** Container Contact **/
 
-.row{
-  
 }
