@@ -17,9 +17,6 @@ body {
   cursor: pointer;
   width: 5%;
 }
-.mainmenubtn:hover {
-  background-color: #085528;
-  }
 .dropdown {
   position: relative;
   display: inline-block;
@@ -350,3 +347,6 @@ a.container-portifolio:link, a:visited, a:active {
 
 /** Container Contact **/
 
+.row{
+  
+}
