@@ -34,11 +34,11 @@ body {
   padding: 20px;
   text-decoration: none;
   display: block;
-  color: rgb(153, 37, 37);
+  color: rgb(255, 255, 255);
 }
 .dropdown:hover .dropdown-child {
   display: block;
-  color: rgb(153, 37, 37);
+  color: rgb(255, 255, 255);
 }
 
 .nav-link{
